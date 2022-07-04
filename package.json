@@ -1,0 +1,16 @@
+{
+  "name": "ghw-kaboom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild --bundle index.js --outfile=build/build.js",
+    "start": "esbuild --bundle index.js --outfile=build/build.js --servedir='.' & open 'http://127.0.0.1:8000'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kaboom": "^2000.2.9"
+  }
+}
